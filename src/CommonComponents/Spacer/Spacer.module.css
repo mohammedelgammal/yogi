@@ -1,0 +1,29 @@
+/* spacer general */
+.spacer {
+  display: flex;
+}
+
+/* spacer Xl */
+.spacerXl {
+  height: 100px;
+}
+
+/* spacer Lg */
+.spacerLg {
+  height: 50px;
+}
+
+/* spacer Md */
+.spacerMd {
+  height: 25px;
+}
+
+/* spacer Sm */
+.spacerSm {
+  height: 10px;
+}
+
+/* spacer Xs */
+.spacerXs {
+  height: 5px;
+}
