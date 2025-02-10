@@ -10,10 +10,16 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+import os
 from pathlib import Path
+from dotenv import load_dotenv  # Install with `pip install python-dotenv`
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+load_dotenv()  # Load environment variables
+os.environ.setdefault("PYTHONDONTWRITEBYTECODE", "1")
 
 
 # Quick-start development settings - unsuitable for production
