@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # My Apps
     "core",
+    "custom_auth",
 ]
 
 MIDDLEWARE = [
@@ -146,3 +147,5 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Welcome to the YOGI Admin Dashboard",
     "copyright": "YOGI Admin Dashboard",
 }
+
+AUTH_USER_MODEL = "custom_auth.CustomUser"
