@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YOGI | Ecommerce Application</title>
+        <meta name="description"
+              content="This is an ecommerce application developed by myself">
+        <meta name="keywords" content="ecommerce">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content %}
+    </body>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</html>
